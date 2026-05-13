@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Início</title>
+</head>
+<body>
+  <div class="container-form">
+    <h1>O que achou do curso?</h1>
+    <form action="/feedbacks/enviar" method="post">
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" required>
+      <label for="comentario">Digite seu comentário</label>
+      <textarea name="comentario" id="comentario" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>

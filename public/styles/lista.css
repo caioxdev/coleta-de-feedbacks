@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e6e6e6;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 3rem;
+  min-height: 100vh;
+}
+
+.container-ul {
+  width: 100%;
+  max-width: 451px;
+  padding: 3rem;
+  border-radius: 32px;
+  box-shadow:
+    8px 8px 16px rgba(17, 12, 46, 0.08),
+    -8px -8px 16px rgba(255, 255, 255, 0.9);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  box-shadow:
+    inset 2px 2px 5px rgba(17, 12, 46, 0.08),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.9);
+}
+
+button {
+  border: none;
+  padding: 8px 14px;
+  color: #000;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  box-shadow:
+    4px 4px 8px rgba(17, 12, 46, 0.08),
+    -4px -4px 8px rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow:
+    inset 2px 2px 5px rgba(17, 12, 46, 0.08),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.9);
+}
+
+a {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+  border-radius: 8px;
+  background-color: #e6e6e6;
+  box-shadow:
+    8px 8px 16px rgba(17, 12, 46, 0.08),
+    -8px -8px 16px rgba(255, 255, 255, 0.9);
+}
+
+a:hover {
+  box-shadow:
+    inset 2px 2px 5px rgba(17, 12, 46, 0.08),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.9);
+}
