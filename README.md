@@ -2,9 +2,13 @@
 
 Aplicação simples de coleta de feedbacks de alunos, desenvolvida com **Node.js** e **Express.js**. Os dados são mantidos em memória durante a execução do servidor.
 
+🔗 **Deploy:** [https://coleta-de-feedbacks.onrender.com](https://coleta-de-feedbacks.onrender.com)
+
 ---
 
 ## 🚀 Como rodar
+
+### Localmente
 
 **Pré-requisitos:** Node.js instalado.
 
@@ -14,9 +18,13 @@ npm install
 
 # Iniciar o servidor
 node server.js
+
+# Ou em modo desenvolvimento (hot reload)
+npm run dev
 ```
 
 Acesse em: [http://localhost:3000](http://localhost:3000)
+
 
 ---
 
@@ -26,7 +34,8 @@ Acesse em: [http://localhost:3000](http://localhost:3000)
 ├── public/
 │   ├── index.html        # Página inicial com formulário
 │   └── styles/
-│       └── index.css     # Estilos (neumorfismo)
+│       ├── index.css     # Estilos da página inicial
+│       └── lista.css     # Estilos da listagem
 ├── views/
 │   └── lista.ejs         # Template da listagem de feedbacks
 ├── server.js             # Servidor Express
@@ -62,12 +71,6 @@ Acesse em: [http://localhost:3000](http://localhost:3000)
 | express   | ^5.2.1   | Framework web para criação do servidor e rotas |
 | ejs       | ^5.0.2   | Template engine para renderizar HTML dinâmico  |
 | nodemon   | ^3.1.14  | Reinicia o servidor automaticamente ao salvar  |
-
-Para rodar em desenvolvimento com hot reload:
-
-```bash
-npm run dev
-```
 
 ---
 
